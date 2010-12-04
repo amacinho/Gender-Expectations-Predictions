@@ -1,0 +1,12 @@
+This document contains the corpus-based predictions of gender expectations of more than 20.000 actions that are represented in ConceptNet. Currently, there are two predictions: Twitter-based (twitter.txt) and Web-based (ukwac.txt). For details consult the references at the end.
+
+Both files have the same format: Each line consists of 4 tab-seperated fields, action, male count, female count, normalized score. Male and female counts correspond to the number of male and female utterances of the action either in a Twitter-based or Web-based corpus. The normalized score is a z-normalization based on a binomial assumption of male and female utterances with p equal to ratio of overall male utterances to the all utterances.
+
+References: 
+
+A. Herdaðdelen, M. Baroni (2010). Stereotypical gender actions
+can be extracted from Web text (Submmited for review).
+
+A. Herdaðdelen (2010). Gender differences in tweets: A corpus-
+based analysis of Twitter. Turunç Workshop on Complex Systems,
+30 August-01 September 2010, Marmaris, Turkey.
